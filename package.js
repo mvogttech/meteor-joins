@@ -1,8 +1,8 @@
 Package.describe({
-	name: "perak:joins",
+	name: "mvtogt22:meteor-joins",
 	summary: "Generic collection joins for Meteor",
 	version: "1.2.0",
-	git: "https://github.com/perak/meteor-joins.git"
+	git: "https://github.com/mvogttech/meteor-joins.git"
 });
 
 Package.onUse(function (api) {

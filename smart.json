@@ -1,9 +1,9 @@
 {
-	"name": "joins",
-	"description": "Generic collection joins for Meteor",
-	"homepage": "https://github.com/perak/meteor-joins",
-	"author": "Petar Korponaic",
-	"version": "1.2.0",
-	"git": "https://github.com/perak/meteor-joins.git",
+	"name": "meteor-joins",
+	"description": "Adaptation of Meteor Joins by Petar Korponiac",
+	"homepage": "https://github.com/mvogttech/meteor-joins",
+	"author": "Michael Vogt",
+	"version": "1.0.0",
+	"git": "https://github.com/mvogttech/meteor-joins.git",
 	"packages": {}
 }
