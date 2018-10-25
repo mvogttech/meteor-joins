@@ -87,9 +87,11 @@ Meteor.publish("employees", function() {
 
 });
 ```
+Example 2 - simple join with defined property
+------------------------
 
 
-Example 2 - generic join
+Example 3 - generic join
 ------------------------
 
 Let's say we have four collections:
@@ -215,7 +217,7 @@ Function reference
 Collection.join
 ---------------
 
-`Collection.join(collection, foreignKey, containerField, fieldList)`
+`Collection.join(collection, foreignKey, containerField, fieldList, fieldKey)`
 
 ### Arguments:
 
@@ -223,6 +225,7 @@ Collection.join
 - `foreignKey` field name where foreign document _id is stored (in our example: `"companyId"`)
 - `containerField` field name where to store foreign document (in our example: `"company"`)
 - `fieldList` array of field names we want to get from foreign collection (in our example array with one field `["name"]`)
+- 'fieldKey' (optional) field name to use as identification key for foreign document
 
 Use this function in scope visible both to client and server.
 
