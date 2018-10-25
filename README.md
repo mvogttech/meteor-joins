@@ -3,7 +3,7 @@ Adaptation of Meteor Joins by @perak
 
 Q: Why?
 
-A: The original version of the package restricted the developer to only query documents within joining collections by the document's _id. With this package you can define which property you would like to query for within the joined collection.
+A: The original version of the package restricted the developer to only query documents within joining collections by the document's `_id`. With this package you can define which property you would like to query for within the joined collection.
 
 Example 1 - simple join
 -----------------------
