@@ -1,9 +1,8 @@
-Generic collection joins for Meteor
+Adaptation of Meteor Joins by @perak
 ===================================
 
-With this package included, you can define joins between collections. `Collection.find` and `Collection.findOne` will return data expanded with docs from joined collections. You can also create "generic join" - join one collection with multiple others using the same foreign key.
-
-This package is used by [Meteor Kitchen](http://www.meteorkitchen.com) - code generator for Meteor.
+Q: Why?
+A: The original version of the package restricted the developer to only query documents within joining collections by the document's _id. With this package you can define which property you would like to query for within the joined collection.
 
 Example 1 - simple join
 -----------------------
